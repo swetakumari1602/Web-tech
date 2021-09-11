@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS Animator(football)</title>
+	<style>
+		div
+		{
+			box-shadow: 0 0 10px green;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			position: relative;
+
+			animation-name: zigzak;
+			animation-duration: 2s;
+			animation-timing-function: linear;
+			animation-delay: 0s;
+			animation-direction: normal;
+			animation-iteration-count: infinite;
+
+		}
+		div img
+		{
+			width: inherit;
+			height: inherit;
+			border-radius: inherit;
+		}
+		@keyframes zigzak
+		{
+			0%
+			{
+				top: 0px;
+				left: 0px;
+
+			}
+			10%
+			{
+				top: 240px;
+				left: 102px;
+				width: 80px;
+			}
+			20%
+			{
+				top: 0px;
+				left: 204px;
+				width: 40px;
+			}
+			30%
+			{
+				top: 240px;
+				left: 306px;
+				width: 80px;
+
+			}
+			40%
+			{
+				top: 0px;
+				left: 480px;
+				width: 40px;
+			}
+			50%
+			{
+				top: 240px;
+				left: 510px;
+				width: 80px;
+
+			}
+			60%
+			{
+				top: 0px;
+				left: 612px;
+				width: 40px;
+			}
+			70%
+			{
+				top: 240px;
+				left: 714px;
+				width: 80px;
+			}
+			80%
+			{
+				top: 0px;
+				left: 816px;
+				width: 40px;
+			}
+			90%
+			{
+				top: 240px;
+				left: 918px;
+
+			}
+			100%
+			{
+				top: 0px;
+				left: 1024px;
+				width: 40px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<img src="Foot ball.png">
+	</div>
+
+</body>
+</html>
